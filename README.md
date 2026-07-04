@@ -8,11 +8,12 @@ An enterprise-aligned network infrastructure deployment engineered to maximize o
 ## 🗺️ System Architecture & Visual Topology
 The deployment intercepts and observes local network traffic without altering upstream core routing tables by utilizing a twin-engine approach:
 
-
+<p align="center">
+  <img src="images/network-topology.jpeg" width="70%" alt="Headless Network Gateway Topology Diagram" />
+</p>
 
 1. **Ingress DNS Filtering (Application Layer):** Intercepts client queries, matching targets against structured blocklists to neutralize tracking telemetry and malware distributions before external egress occurs.
 2. **Passive Flow Analysis (Data Link Layer):** Leverages promiscuous mode packet capture bound to the core physical interface, extracting Layer-2 through Layer-7 protocols to baseline local network conversations.
-
 ---
 
 ## 🛠️ Core Infrastructure Stack
