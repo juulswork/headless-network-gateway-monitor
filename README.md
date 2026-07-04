@@ -1,7 +1,7 @@
 # Headless Network Gateway Security & Telemetry Engine
 
 ## 📌 Project Overview
-An enterprise-aligned network infrastructure deployment engineered to maximize operational privacy, edge security, and real-time observability across a Local Area Network (LAN). Utilizing a headless Raspberry Pi architecture running Debian Trixie (64-bit), the system functions as a secure, network-wide authoritative DNS sinkhole to drop malicious domain vectors at the gateway, while concurrently operating a passive data-link layer probe executing Deep Packet Inspection (DPI) for granular traffic telemetry.
+An enterprise-aligned network infrastructure deployment engineered to maximize operational privacy, edge security, and real-time observability across a Local Area Network (LAN). Utilizing a headless Raspberry Pi 4 (4GB) architecture running Debian Trixie (64-bit), the system functions as a secure, network-wide authoritative DNS sinkhole to drop malicious domain vectors at the gateway, while concurrently operating a passive data-link layer probe executing Deep Packet Inspection (DPI) for granular traffic telemetry.
 
 ---
 
