@@ -9,7 +9,7 @@ An enterprise-aligned network infrastructure deployment engineered to maximize o
 The deployment intercepts and observes local network traffic without altering upstream core routing tables by utilizing a twin-engine approach:
 
 <p align="center">
-  <img src="images/network-topology.jpeg" width="70%" alt="Headless Network Gateway Topology Diagram" />
+  <img src="images/network-topology.jpg" width="70%" alt="Headless Network Gateway Topology Diagram" />
 </p>
 
 1. **Ingress DNS Filtering (Application Layer):** Intercepts client queries, matching targets against structured blocklists to neutralize tracking telemetry and malware distributions before external egress occurs.
