@@ -10,6 +10,12 @@ An enterprise-grade network infrastructure deployment designed to optimize priva
 * **DNS Sinkholing (Pi-hole):** Intercepts network-wide upstream DNS requests, mitigating ad-trackers, malware vectors, and telemetry scripts at the gateway level.
 * **Traffic Inspection (ntopng):** Configured as a passive network probe executing deep packet inspection (DPI) to monitor throughput, identify anomalous behavioral spikes, and visualize active network protocol flows.
 
+### Live Infrastructure Telemetry
+
+<p align="center">
+  <img src="images/pihole-dashboard.png" width="45%" alt="Pi-hole Secure DNS Analytics" />
+  <img src="images/ntopng-dashboard.png" width="45%" alt="ntopng Deep Packet Inspection Flows" />
+</p>
 ---
 
 ## ⚙️ Deployment & Configuration Highlights
